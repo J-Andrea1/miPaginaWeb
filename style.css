@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+}
+ol, 
+ul {
+    list-style: none; /*css generico...quita el punto de las listas*/
+}
+
+a {
+    text-decoration: none;/*quita la decoración de los links*/
+    display: flex;
+    justify-content: center;
+}
+/*
+.container {
+    background-image: url(/miPrimeraWeb/img/fondo\ pag.jpg);
+    
+}*/
+
+header{
+    display: flex;
+    background-color: aqua;
+    align-items:center;
+    justify-content:space-between;
+ }
+
+header a i{
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+    
+}
+
+header nav ul{
+   display: flex;
+   gap: 1.5em;
+   align-items: center;
+   justify-content: space-between;  
+}
+
+header nav ul li{
+    color: blueviolet;   
+}
+
+.acerca-de {
+    
+    background-color: rgba(255, 192, 203, 0.727);
+    border: solid violet;
+    /*border-radius: 10%;*/
+}
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.seccion-2{
+    width: 100%;
+}
+ 
+.h2_uno{
+    color: rgb(206, 58, 206);
+    text-align: center;
+}
+
+
+.acerca-imagen{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    background-color: aqua;
+    padding: 10px;  
+    color: blueviolet;
+}
+
+
+
